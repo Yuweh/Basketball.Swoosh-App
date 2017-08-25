@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9003FDC31F50DB5500710B47 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003FDC21F50DB5500710B47 /* BorderButton.swift */; };
 		90E1093D1F4F31A2006DAF43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */; };
 		90E1093F1F4F31A2006DAF43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1093E1F4F31A2006DAF43 /* ViewController.swift */; };
 		90E109421F4F31A2006DAF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E109401F4F31A2006DAF43 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9003FDC21F50DB5500710B47 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		90E109391F4F31A2006DAF43 /* Swoosh Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swoosh Basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90E1093E1F4F31A2006DAF43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9003FDC11F50D75E00710B47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9003FDC21F50DB5500710B47 /* BorderButton.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		90E109301F4F31A1006DAF43 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		90E1093B1F4F31A2006DAF43 /* Swoosh Basketball */ = {
 			isa = PBXGroup;
 			children = (
+				9003FDC11F50D75E00710B47 /* Views */,
 				90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */,
 				90E1093E1F4F31A2006DAF43 /* ViewController.swift */,
 				90E109401F4F31A2006DAF43 /* Main.storyboard */,
@@ -142,6 +153,7 @@
 				90E109451F4F31A2006DAF43 /* Swoosh_Basketball.xcdatamodeld in Sources */,
 				90E1093F1F4F31A2006DAF43 /* ViewController.swift in Sources */,
 				90E1093D1F4F31A2006DAF43 /* AppDelegate.swift in Sources */,
+				9003FDC31F50DB5500710B47 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				90E109501F4F31A2006DAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
