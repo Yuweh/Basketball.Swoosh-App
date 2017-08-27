@@ -22,6 +22,7 @@ class StartVC: UIViewController {
     
     @IBAction func getStartedTapped(_ sender: Any) {
         performSegue(withIdentifier: "leagueVCSegue", sender: self)
+        print("Executed")
     }
     
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
