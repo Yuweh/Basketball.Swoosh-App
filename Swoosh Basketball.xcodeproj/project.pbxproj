@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9003FDC31F50DB5500710B47 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003FDC21F50DB5500710B47 /* BorderButton.swift */; };
+		900EB9C21F533FFC0080069A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EB9C11F533FFC0080069A /* Player.swift */; };
+		909807741F52CA5000DA5202 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909807731F52CA5000DA5202 /* LeagueVC.swift */; };
+		909807761F52CA6B00DA5202 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909807751F52CA6B00DA5202 /* SkillVC.swift */; };
+		909807781F52E46E00DA5202 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909807771F52E46E00DA5202 /* StartVC.swift */; };
 		90E1093D1F4F31A2006DAF43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */; };
-		90E1093F1F4F31A2006DAF43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1093E1F4F31A2006DAF43 /* ViewController.swift */; };
+		90E1093F1F4F31A2006DAF43 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E1093E1F4F31A2006DAF43 /* WelcomeVC.swift */; };
 		90E109421F4F31A2006DAF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E109401F4F31A2006DAF43 /* Main.storyboard */; };
 		90E109451F4F31A2006DAF43 /* Swoosh_Basketball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90E109431F4F31A2006DAF43 /* Swoosh_Basketball.xcdatamodeld */; };
 		90E109471F4F31A2006DAF43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E109461F4F31A2006DAF43 /* Assets.xcassets */; };
@@ -18,9 +22,13 @@
 
 /* Begin PBXFileReference section */
 		9003FDC21F50DB5500710B47 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		900EB9C11F533FFC0080069A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		909807731F52CA5000DA5202 /* LeagueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
+		909807751F52CA6B00DA5202 /* SkillVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		909807771F52E46E00DA5202 /* StartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
 		90E109391F4F31A2006DAF43 /* Swoosh Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swoosh Basketball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90E1093E1F4F31A2006DAF43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90E1093E1F4F31A2006DAF43 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		90E109411F4F31A2006DAF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90E109441F4F31A2006DAF43 /* Swoosh_Basketball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swoosh_Basketball.xcdatamodel; sourceTree = "<group>"; };
 		90E109461F4F31A2006DAF43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,12 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9003FDC11F50D75E00710B47 /* Views */ = {
+		9003FDC11F50D75E00710B47 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				9003FDC21F50DB5500710B47 /* BorderButton.swift */,
 			);
-			name = Views;
+			name = View;
+			sourceTree = "<group>";
+		};
+		909807711F52C98E00DA5202 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				909807771F52E46E00DA5202 /* StartVC.swift */,
+				90E1093E1F4F31A2006DAF43 /* WelcomeVC.swift */,
+				909807731F52CA5000DA5202 /* LeagueVC.swift */,
+				909807751F52CA6B00DA5202 /* SkillVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		909807721F52C99F00DA5202 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				900EB9C11F533FFC0080069A /* Player.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		90E109301F4F31A1006DAF43 = {
@@ -66,9 +93,10 @@
 		90E1093B1F4F31A2006DAF43 /* Swoosh Basketball */ = {
 			isa = PBXGroup;
 			children = (
-				9003FDC11F50D75E00710B47 /* Views */,
+				909807721F52C99F00DA5202 /* Model */,
+				909807711F52C98E00DA5202 /* Controller */,
+				9003FDC11F50D75E00710B47 /* View */,
 				90E1093C1F4F31A2006DAF43 /* AppDelegate.swift */,
-				90E1093E1F4F31A2006DAF43 /* ViewController.swift */,
 				90E109401F4F31A2006DAF43 /* Main.storyboard */,
 				90E109461F4F31A2006DAF43 /* Assets.xcassets */,
 				90E109481F4F31A2006DAF43 /* LaunchScreen.storyboard */,
@@ -150,9 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				909807741F52CA5000DA5202 /* LeagueVC.swift in Sources */,
 				90E109451F4F31A2006DAF43 /* Swoosh_Basketball.xcdatamodeld in Sources */,
-				90E1093F1F4F31A2006DAF43 /* ViewController.swift in Sources */,
+				90E1093F1F4F31A2006DAF43 /* WelcomeVC.swift in Sources */,
 				90E1093D1F4F31A2006DAF43 /* AppDelegate.swift in Sources */,
+				909807781F52E46E00DA5202 /* StartVC.swift in Sources */,
+				900EB9C21F533FFC0080069A /* Player.swift in Sources */,
+				909807761F52CA6B00DA5202 /* SkillVC.swift in Sources */,
 				9003FDC31F50DB5500710B47 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
