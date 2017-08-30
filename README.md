@@ -20,9 +20,12 @@ Passing Data to Segues
 
 Multi-class
 
-Future Dev
-Social Media
-Table Cell
-Geo Maps
-Side Menu
-Firebase / Realm
+
+
+Future Dev Plans
+/ Geo Maps
+/ Baller Profile
+/ Side Menu
+/ Team Profile
+/ Score Sheets
+/ Firebase / Realm
